@@ -1,0 +1,25 @@
+"Italian Menu" => [
+            "first_plate" => "Bruschetta",
+            "second_plate" => "Lasagna",
+            "dessert" => "Tiramisu"
+        ],
+        "French Menu" => [
+            "first_plate" => "French Onion Soup",
+            "second_plate" => "Coq au Vin",
+            "dessert" => "Crème Brûlée"
+        ],
+        "Japanese Menu" => [
+            "first_plate" => "Miso Soup",
+            "second_plate" => "Sushi",
+            "dessert" => "Mochi"
+        ],
+        "Mexican Menu" => [
+            "first_plate" => "Guacamole",
+            "second_plate" => "Tacos al Pastor",
+            "dessert" => "Churros"
+        ],
+        "Indian Menu" => [
+            "first_plate" => "Samosa",
+            "second_plate" => "Butter Chicken",
+            "dessert" => "Gulab Jamun"
+        ]
