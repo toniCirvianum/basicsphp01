@@ -6,7 +6,7 @@
     <title>Regex Mail</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <p>
             <label for="mail">Escriuel mail: </label>
             <input type="email" name="email">
@@ -24,7 +24,6 @@
                 $mail);
             return $result;
         }
-
         if ($_SERVER['REQUEST_METHOD']=='POST' &&   ISSET($_POST['email'])) {
             $mail=$_POST['email'];
             if (validaMail($mail)) {
@@ -32,7 +31,6 @@
             } else {
                 echo "<p> El mail $mail es incorrecte";
             }
-            
         } 
         
 
