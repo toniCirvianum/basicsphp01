@@ -21,6 +21,13 @@
         } else {
             echo "<p> $string2 té caracters numerics </p>";
         }
+
+        $mail ="mail@@mail.com";
+
+        if (filter_var($mail,FILTER_VALIDATE_EMAIL))
+            echo "Mail correcte";
+        else
+            echo "Mail incorrecte";
         
     ?>
     
